@@ -1,6 +1,6 @@
 # OpenScpi GitHub Pages Site
 
-This is the website for the OpenScpi project.
+This is the website for the OpenScpi project. Link to published location: [openscpi.github.io](https://openscpi.github.io)
 
 ## For developers:
 
