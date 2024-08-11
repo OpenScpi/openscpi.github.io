@@ -4,7 +4,22 @@ This is the website for the OpenScpi project.
 
 ## For developers:
 
-Install the [Prerequistes](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#prerequisites). Includes Ruby and Jekyll.
+### No software, just markdown:
+To just post a new blog post without installing things and using just a text editor, you can also just add new file `./_posts/<YEAR>-<MONTH>-<DAY>-<TITLE>.md`. And include this text in the file:
+```
+---
+layout: post
+title: <TITLE HERE>
+date: 2024-08-10 22:07 -0400 <obviously update the date>
+---
+
+<body of post goes here...>
+```
+
+### Jekyll Environment with testing and stuff
+
+Install Ruby and Jekyll. Recommend using the RubyInstaller [from these instructions](https://jekyllrb.com/docs/installation/windows/). See also the [Prerequistes GitHub Pages doc](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#prerequisites). You need Ruby, RubyDevkit, MSYS2, MINGW, Jekyll, and bundler.
+Use `bundle install` in the repo folder once you have the prerequistes and the repo cloned. That will install everything you need.
 
 Uses the [`jekyll-compose` plugin](https://github.com/jekyll/jekyll-compose), so you can use various helper commands.
  * To create a new blog post, use `bundle exec jekyll post "New Post Name"`
